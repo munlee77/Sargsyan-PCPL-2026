@@ -36,9 +36,6 @@ class DatabaseTable:
         self.db_id = db_id        # ID базы данных
         self.table_id = table_id  # ID таблицы данных
 
-
-# Тестовые данные (первичные и вторичные ключи связаны по идентификаторам)
-
 databases = [
     Database(1, 'Архив документов'),
     Database(2, 'Бухгалтерия'),
